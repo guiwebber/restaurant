@@ -1,0 +1,60 @@
+.categorias .btnCategoria img {
+  width: 20px;
+}
+.categoriasBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.categorias .btnCategoria {
+  padding: 10px 0px;
+  flex: 1 1 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+}
+.categoriasBtns {
+  margin: 50px auto 0px auto;
+  display: flex;
+}
+
+#input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 50px;
+  background-image: url(../../assets/lupa.png);
+  background-size: 2%;
+  background-repeat: no-repeat;
+  background-position: 1%;
+  border: 2px solid rgba(128, 128, 128, 0.336);
+  color: #daa520;
+  margin: 20px auto;
+}
+#input:focus {
+  outline: none;
+  border: 2px solid #daa520;
+}
+
+.titleCardapio {
+  font-family: "Dancing Script", cursive;
+  color: #daa520;
+  text-align: center;
+}
+.botaoClicado {
+  background-color: #daa520;
+}
+
+.box-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+  border-radius: 4px;
+}
